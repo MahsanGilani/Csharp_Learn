@@ -26,4 +26,6 @@ Console.WriteLine("Enter a number: ");
 userInput = Console.ReadLine();
 num4 = double.Parse(userInput);
 double sum = num3 + num4;
+// rounding sum to 2 decimal places
+sum = Math.Round(sum, 2);
 Console.WriteLine($"{num3} + {num4} = {sum}");
