@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Implicit Conversing
+int myInt = 124561;
+double myDouble = myInt;
+Console.WriteLine(myDouble);
