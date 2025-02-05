@@ -13,3 +13,9 @@ float myFloat = 123.123456789f;
 double mydouble2 = myFloat;
 Console.WriteLine(mydouble2);
 //-------------------------------------------------
+// (explicit conversing) casting double to int
+int myInt3;
+double myDouble3 = 546.89546331145;
+myInt3 = (int)myDouble3;
+Console.WriteLine(myInt3);
+Console.ReadKey();
