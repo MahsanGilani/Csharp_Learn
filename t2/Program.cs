@@ -18,4 +18,9 @@ int myInt3;
 double myDouble3 = 546.89546331145;
 myInt3 = (int)myDouble3;
 Console.WriteLine(myInt3);
+//-------------------------------------------------
+//casting long to int
+long myLong3 = 1544547471412244574;
+int myInt4 = (int)myLong3;
+Console.WriteLine(myInt4);
 Console.ReadKey();
