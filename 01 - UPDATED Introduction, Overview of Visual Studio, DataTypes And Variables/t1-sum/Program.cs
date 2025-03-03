@@ -29,3 +29,11 @@ double sum = num3 + num4;
 // rounding sum to 2 decimal places
 sum = Math.Round(sum, 2);
 Console.WriteLine($"{num3} + {num4} = {sum}");
+
+//===========================================================
+/*تمرین کردن برای یادآوری مباحث*/
+string Name = "jack";
+string userinput = Console.ReadLine();
+double num10 = 58.36559;
+double num11 = 47.12368;
+Console.WriteLine($" num10 + num11 = {Math.Round(num10+num11, 2)}");
