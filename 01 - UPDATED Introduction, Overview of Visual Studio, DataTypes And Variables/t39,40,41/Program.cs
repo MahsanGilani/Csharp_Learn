@@ -15,7 +15,7 @@ Console.WriteLine(fullName2);
 int num1 = 12;
 int num2 = 5;
 
-// concatenation
+// concatination
 Console.WriteLine("concatenation of both number is = " + num1 + num2);
 // addition
 Console.WriteLine("addition of both number is = "+ (num1 + num2));
@@ -26,3 +26,14 @@ Console.WriteLine("multipulication of both number is = "+ (num1 * num2));   //ا
 //division
 Console.WriteLine("division of both number is = "+ (num1/num2));
 //================================================
+//debugging
+/*
+ برای اینکه متوجه بشیم الان خطمون توی چه وضعیتیه و مقدار یا تایپش چیه اون خط رو میگیریم واز 
+Shift + F9
+استفاده میکنیم
+ */
+var num3 = 14;
+Console.WriteLine("write your number please:");
+var num4 = int.Parse(Console.ReadLine());
+Console.WriteLine("concatenation of both number is = " + num3 + num4);
+Console.WriteLine("division of both number is = " + (num3 / num4));
