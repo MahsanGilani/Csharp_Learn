@@ -53,3 +53,9 @@ if (!isRainy || hasUmbrella)
 // true && false --> false
 // false && true --> false
 // false && false --> false
+
+if (isRainy && !hasUmbrella)
+{
+    Console.WriteLine("I'm Getting Wet");
+}
+//==========================================
