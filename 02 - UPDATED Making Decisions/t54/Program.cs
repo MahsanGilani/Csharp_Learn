@@ -12,3 +12,14 @@
  */
 
 //==============================================
+
+bool isRainy = false;
+bool hasUmbrella = true;
+
+if (isRainy)  // درصورتیکه مقدار داخل پرانتز برابر با true باشد، کد پایین اجرا میشود
+{
+    Console.WriteLine("oh it's rainy");
+}
+
+Console.WriteLine("ummmm it's sunny");
+Console.ReadKey();
