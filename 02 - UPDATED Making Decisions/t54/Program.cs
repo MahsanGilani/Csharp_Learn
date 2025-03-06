@@ -59,3 +59,18 @@ if (isRainy && !hasUmbrella)
     Console.WriteLine("I'm Getting Wet");
 }
 //==========================================
+/* Relational Operators */
+// relational operators  <  <=  >=  >
+
+// مقدار دیفالت یک bool برابر با false میباشد همیشه تا زمانیکه بخوایم بهش مقدار دیگه ای بدیم
+
+int num1 = 5;
+int num2 = 6;
+
+bool isGreater = num1 > num2;
+
+int age = 35;
+if (age >= 18)
+{
+    Console.WriteLine("go party in the club");
+}
