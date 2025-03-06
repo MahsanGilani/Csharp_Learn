@@ -42,9 +42,14 @@ if (!isRainy || hasUmbrella)
     Console.WriteLine("I'm Not getting wet");
 }
 
-// Variants of OR statement
+// Variants of OR statement:
 // true || true --> true
 // true || false --> true
 // false || true --> true
 // false || false --> false
 //===========================================
+// Variants of AND statement:
+// true && true --> true
+// true && false --> false
+// false && true --> false
+// false && false --> false
