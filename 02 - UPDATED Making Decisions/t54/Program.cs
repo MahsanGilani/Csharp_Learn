@@ -22,4 +22,29 @@ if (isRainy)  // درصورتیکه مقدار داخل پرانتز برابر 
 }
 
 Console.WriteLine("ummmm it's sunny");
-Console.ReadKey();
+
+//==============================================
+//Logical Operators:
+// AND = &&
+// OR = ||
+// NOT = !
+isRainy = true;
+hasUmbrella = true;
+
+if (isRainy && hasUmbrella)
+{
+    Console.WriteLine("I'm protected against rain");
+}
+
+
+if (!isRainy || hasUmbrella)
+{
+    Console.WriteLine("I'm Not getting wet");
+}
+
+// Variants of OR statement
+// true || true --> true
+// true || false --> true
+// false || true --> true
+// false || false --> false
+//===========================================
