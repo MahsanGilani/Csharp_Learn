@@ -39,6 +39,10 @@
 
 //Console.WriteLine($"first = {first} , Second = {second}");
 //**************************************************************
-int num1 = int.Parse(Console.ReadLine()), num2 = int.Parse(Console.ReadLine());
-Console.WriteLine(num2+"\n"+num1);
-Console.WriteLine(num1);
+//int num1 = int.Parse(Console.ReadLine()), num2 = int.Parse(Console.ReadLine());
+//Console.WriteLine(num2+"\n"+num1);
+
+//**************************************************************
+float num = 54.23232f;
+int changeNum = (int)num;
+Console.WriteLine(num + " ----> " + changeNum);
