@@ -18,6 +18,15 @@
 //Console.WriteLine($"Hello, This is your input: {num2}");
 
 //**************************************************************
-float x;
-x = float.Parse(Console.ReadLine());
-Console.WriteLine(x * 4);
+//float x;
+//x = float.Parse(Console.ReadLine());
+//Console.WriteLine(x * 4);
+
+//**************************************************************
+int a;
+Console.WriteLine("Please write your first number: ");
+a = int.Parse(Console.ReadLine());
+int b;
+Console.WriteLine("Please write your second number: ");
+b = int.Parse(Console.ReadLine());
+Console.WriteLine($"The Sum is equal to = {a + b}");
