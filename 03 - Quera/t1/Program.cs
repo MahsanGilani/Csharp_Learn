@@ -23,10 +23,18 @@
 //Console.WriteLine(x * 4);
 
 //**************************************************************
-int a;
-Console.WriteLine("Please write your first number: ");
-a = int.Parse(Console.ReadLine());
-int b;
-Console.WriteLine("Please write your second number: ");
-b = int.Parse(Console.ReadLine());
-Console.WriteLine($"The Sum is equal to = {a + b}");
+//int a;
+//Console.WriteLine("Please write your first number: ");
+//a = int.Parse(Console.ReadLine());
+//int b;
+//Console.WriteLine("Please write your second number: ");
+//b = int.Parse(Console.ReadLine());
+//Console.WriteLine($"The Sum is equal to = {a + b}");
+
+//**************************************************************
+string[] input = Console.ReadLine().Split(' ');
+
+int first = int.Parse(input[0]);
+int second = int.Parse(input[1]);
+
+Console.WriteLine($"first = {first} , Second = {second}");
