@@ -66,10 +66,10 @@
 
 //**************************************************************
 
-char ch = 'c';
-Console.WriteLine("The ASCII code of character c is " + (int)ch);
+//char ch = 'c';
+//Console.WriteLine("The ASCII code of character c is " + (int)ch);
 
-int num = 14;
-Console.WriteLine((char)num);
+//int num = 14;
+//Console.WriteLine((char)num);
 
 //**************************************************************
