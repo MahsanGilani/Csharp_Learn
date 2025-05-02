@@ -42,9 +42,36 @@ if (!isRainy || hasUmbrella)
     Console.WriteLine("I'm Not getting wet");
 }
 
-// Variants of OR statement
+// Variants of OR statement:
 // true || true --> true
 // true || false --> true
 // false || true --> true
 // false || false --> false
 //===========================================
+// Variants of AND statement:
+// true && true --> true
+// true && false --> false
+// false && true --> false
+// false && false --> false
+
+if (isRainy && !hasUmbrella)
+{
+    Console.WriteLine("I'm Getting Wet");
+}
+//==========================================
+/* Relational Operators */
+// relational operators  <  <=  >=  >
+
+// مقدار دیفالت یک bool برابر با false میباشد همیشه تا زمانیکه بخوایم بهش مقدار دیگه ای بدیم
+
+int num1 = 5;
+int num2 = 6;
+
+bool isGreater = num1 > num2;
+
+int age = 35;
+if (age >= 18)
+{
+    Console.WriteLine("go party in the club");
+}
+//==========================================
