@@ -8,6 +8,11 @@
 //Console.WriteLine(str);
 
 //**************************************************************
-int num1;
-num1 = int.Parse(Console.ReadLine());
-Console.WriteLine(num1);
+//int num1;
+//num1 = int.Parse(Console.ReadLine());
+//Console.WriteLine(num1);
+
+//**************************************************************
+float num2;
+num2 = float.Parse(Console.ReadLine());
+Console.WriteLine($"Hello, This is your input: {num2}");
