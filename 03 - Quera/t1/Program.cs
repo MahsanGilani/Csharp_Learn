@@ -13,6 +13,11 @@
 //Console.WriteLine(num1);
 
 //**************************************************************
-float num2;
-num2 = float.Parse(Console.ReadLine());
-Console.WriteLine($"Hello, This is your input: {num2}");
+//float num2;
+//num2 = float.Parse(Console.ReadLine());
+//Console.WriteLine($"Hello, This is your input: {num2}");
+
+//**************************************************************
+float x;
+x = float.Parse(Console.ReadLine());
+Console.WriteLine(x * 4);
