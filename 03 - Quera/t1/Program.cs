@@ -32,9 +32,10 @@
 //Console.WriteLine($"The Sum is equal to = {a + b}");
 
 //**************************************************************
-string[] input = Console.ReadLine().Split(' ');
+//string[] input = Console.ReadLine().Split(' ');  //برای گرفتن ورودی های بیشتر در یک خط از این دستور استفاده میشه
 
-int first = int.Parse(input[0]);
-int second = int.Parse(input[1]);
+//int first = int.Parse(input[0]);
+//int second = int.Parse(input[1]);
 
-Console.WriteLine($"first = {first} , Second = {second}");
+//Console.WriteLine($"first = {first} , Second = {second}");
+//**************************************************************
