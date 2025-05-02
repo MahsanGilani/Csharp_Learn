@@ -56,8 +56,20 @@
 //Console.WriteLine((int)-140.355);
 
 //**************************************************************
-int num = 1243;
-float num2 = num;
-Console.WriteLine(num2);
+//int num = 1243;
+//float num2 = num;
+//Console.WriteLine(num2);
+
+//**************************************************************
+//float fnum = float.Parse(Console.ReadLine());
+//Console.WriteLine((int)fnum);
+
+//**************************************************************
+
+char ch = 'c';
+Console.WriteLine("The ASCII code of character c is " + (int)ch);
+
+int num = 14;
+Console.WriteLine((char)num);
 
 //**************************************************************
