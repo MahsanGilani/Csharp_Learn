@@ -43,6 +43,14 @@
 //Console.WriteLine(num2+"\n"+num1);
 
 //**************************************************************
-float num = 54.23232f;
-int changeNum = (int)num;
-Console.WriteLine(num + " ----> " + changeNum);
+//float num = 54.23232f;
+//int changeNum = (int)num;
+//Console.WriteLine(num + " ----> " + changeNum);
+
+//**************************************************************
+Console.WriteLine((float)140);
+Console.WriteLine((int)140.0000000);
+Console.WriteLine((int)140.5221354);
+Console.WriteLine((int)140.9999999);
+Console.WriteLine((int)-140.655);
+Console.WriteLine((int)-140.355);
