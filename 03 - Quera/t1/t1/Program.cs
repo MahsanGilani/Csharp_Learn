@@ -1,4 +1,77 @@
-﻿// از تابع زیر برای متوجه شدن نوع متغیر استفاده میکنیم
+﻿//Console.WriteLine("Hello, World!");
+
+//Console.WriteLine("Hello ");
+//Console.WriteLine("World");
+
+//Console.Write("Hello\n");
+//Console.Write("World!");
+
+//Console.Write("Hello      ");
+//Console.Write("World      !");
+
+//Console.Write("*+*+*\n+*+*+\n*+*+*");
+
+//Console.WriteLine("    *    ");
+//Console.WriteLine("   ***   ");
+//Console.WriteLine("  *****  ");
+//Console.WriteLine(" ******* ");
+//Console.WriteLine("*********");
+
+//Console.WriteLine ("Hello World!");
+//Console.WriteLine("Welcome to C# college");
+
+
+//float number1 = 455.54645f;
+//Console.WriteLine(number1);
+
+//string name = "mahsan";
+//int age = 27;
+//char code  = 'A';
+//Console.WriteLine("hello my name is " + name + " and I'm " + age + " years old and I'm in grade " + code);
+////or
+//Console.WriteLine($"hello my name is {name}");
+
+//char blood = 'B';
+//Console.WriteLine($"Hi My blood type is {blood}");
+
+//int num = 1;
+//Console.WriteLine(num.ToString("000"));
+//Console.WriteLine(num.ToString("005"));
+
+//float fnum = 12.3f;
+//Console.WriteLine(fnum.ToString("00.0"));
+
+//float fnum2 = 123.456f;
+//Console.WriteLine(fnum2.ToString(".000"));
+
+//float fnum3 = 123.789f;
+//Console.WriteLine(fnum3.ToString(".00"));
+
+//float a = 12.345f;
+//float b = 67.8901f;
+//Console.WriteLine($"a is : {a.ToString(".00")} and b is : {b.ToString(".00")}");
+
+//float c = -3457.12f;
+//float d = 0.3459f;
+//Console.WriteLine("c is : " + c.ToString("00.00") + "d is : " + d.ToString("00000.00"));
+
+
+//var e = 12;
+//var t = 13.2;
+//var n = 12.3f;
+//var r = "salam";
+//var i = '*';
+
+//Console.WriteLine(e.GetType());
+//Console.WriteLine(t.GetType());
+//Console.WriteLine(n.GetType());
+//Console.WriteLine(r.GetType());
+//Console.WriteLine(i.GetType());
+
+//var x = 3894.1399f;
+//Console.WriteLine(x.ToString("000.000"));
+
+// از تابع زیر برای متوجه شدن نوع متغیر استفاده میکنیم
 //var number = 34;
 //Console.WriteLine(number.GetType());
 
