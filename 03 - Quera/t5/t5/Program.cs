@@ -130,8 +130,128 @@
 //        {
 //            Console.Write((i * j) + " ");       // شماره سطر بزرگتر از شماره ستون
 //        }
-        
+
 //    Console.Write("\n");
 //}
 
 //****************************************************************************************
+//// گرفتن ورودی از کاربر
+//int n = int.Parse(Console.ReadLine());
+
+//int totalsum = 1;           // تعریف متغیر جمع کل برای پایان برنامه
+
+//int linesum = 1;            // تعریف متغیری برای جمع اعداد در هر خط
+
+//string line = "1";          // نشان دادن استرینگی برای جمع هر عدد
+
+//for (int i = 1; i < n + 1; i++)
+//{   
+//    if (i == 1)
+//    {
+//        Console.WriteLine($"{1} = {1}");
+//    }
+//    else
+//    {
+//        for (int j = i; j<=i; j++)
+//        {
+//            linesum += j;
+//            line = line + "+" + j;
+//            Console.WriteLine($"{line} = {linesum}");
+//            totalsum += linesum;
+//        }
+
+//    }
+//}
+//Console.WriteLine($"Total sum of series is: {totalsum}");
+
+//****************************************************************************************
+//long n = long.Parse(Console.ReadLine());
+//long sum = 0;
+
+//while (n >= 10)
+//{   
+//    // جمع ارقام عدد n
+//    while(n != 0)       
+//    {
+//        sum += n % 10;
+//        n /= 10;
+//    }
+
+//    n = sum;
+//    sum = 0;
+//}
+//Console.WriteLine(n);
+
+//****************************************************************************************
+
+//long n = long.Parse(Console.ReadLine());
+//long sum = 0;
+
+//while (true)
+//{
+//    // جمع ارقام عدد n
+//    while (n != 0)
+//    {
+//        sum += n % 10;
+//        n /= 10;
+//    }
+
+//    // چک میکنیم در صورتیکه مجموع مجددا بزرگتر مساوی 2 شد، برگرده به چرخه بالا
+//    if (sum.ToString().Length >= 2)
+//    {
+//        n = sum;
+//        sum = 0;
+//        continue;
+//    }
+//    else
+//    {
+//        break;
+//    }
+
+//}
+//Console.WriteLine(sum);
+
+//****************************************************************************************
+//int n, sum = 0;
+//n = int.Parse(Console.ReadLine());
+//while (sum >= 10)
+//{
+//    sum += (n % 10);
+//    n = n / 10;
+//}
+//Console.WriteLine(sum);
+
+
+//****************************************************************************************
+//for (int i = 1, j = 2; i < 10 || j < 10; i += 2, j += 2)
+//{
+//    Console.WriteLine(i + " " + j);
+//}
+
+//****************************************************************************************
+//Console.WriteLine("bal e pashe\r\nsooske abi\r\ntof e tak shakh\r\nrishe bid e majnoon\r\nkhak e ros e sad sale\r\nserke amme leyla\r\nmooy e khers");
+
+//****************************************************************************************
+//int n = int.Parse(Console.ReadLine());
+//Console.WriteLine($"aji maji la taraji {n}.\r\nman ghol midam dige taghallob nakonam.\r\nvagarna khoda mano soosk kone!");
+
+//****************************************************************************************
+//int n = int.Parse(Console.ReadLine());
+//Console.WriteLine(n * 5);
+
+//****************************************************************************************
+//string[] input = Console.ReadLine().Split(' ');
+//int a = int.Parse(input[0]);
+//int b = int.Parse(input[1]);
+//int c = int.Parse(input[2]);
+//int d = int.Parse(input[3]);
+
+//int sum = a + b + c;
+
+//if (sum % d != 0)
+//    Console.WriteLine("mituni");
+//else
+//    Console.WriteLine("nemituni");
+
+//****************************************************************************************
+
